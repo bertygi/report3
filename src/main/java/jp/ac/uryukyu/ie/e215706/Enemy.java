@@ -54,34 +54,66 @@ public class Enemy {
         }
     }
 
+    /**
+     * nameを参照するためのアクセサ・メソッド
+     * @return 敵の名前
+     */
     public String getName(){
         return name;
     }
 
+    /**
+     * hitPointを参照するためのアクセサ・メソッド
+     * @return 敵のHP
+     */
     public int getHitPoint(){
         return hitPoint;
     }
 
+    /**
+     * attackを参照するためのアクセサ・メソッド
+     * @return 敵の攻撃力
+     */
     public int getAttack(){
         return attack;
     }
 
+    /**
+     * deadを参照するためのアクセサ・メソッド
+     * @return 敵の生死状態。true=死亡。
+     */
     public boolean getDead(){
         return dead;
     }
 
+    /**
+     * nameを設定するためのアクセサ・メソッド
+     * @param name 敵の名前
+     */
     public void setName(String name){
         this.name = name;
     }
 
+    /**
+     * hitPointを設定するためのアクセサ・メソッド
+     * @param hitPoint 敵のHP
+     */
     public void setHitPoint(int hitPoint){
         this.hitPoint =hitPoint;
     }
 
+    /**
+     * attackを設定するためのアクセサ・メソッド
+     * @param attack 敵の攻撃力
+     */
     public void setAttack(int attack){
         this.attack =attack;
     }
     
+    /**
+     * deadを設定するためのアクセサ・メソッド
+     * @param dead 敵の生死状態。true=死亡。
+     */
     public void setDead(boolean dead){
         this.dead = dead;
     }
