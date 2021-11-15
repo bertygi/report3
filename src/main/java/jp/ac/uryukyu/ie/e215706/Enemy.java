@@ -1,7 +1,5 @@
 package jp.ac.uryukyu.ie.e215706;
 
-import java.text.BreakIterator;
-
 /**
  * 敵クラス。
  *  String name; //敵の名前
